@@ -1,0 +1,112 @@
+.btn-main {
+  color: $white;
+  padding: 6px 24px;
+  border-radius: 100px;
+  background: $red;
+  transition: background 0.3s ease;
+}
+
+button.stripe-button-el {
+  visibility: hidden;
+  display: none;
+}
+
+.btn-main:hover {
+  color: $white;
+  padding: 6px 24px;
+  border-radius: 100px;
+  background: $pink;
+  transition: background 0.3s ease;
+}
+
+.btn-secondery {
+  color: $red;
+  padding: 6px 24px;
+  border-radius: 100px;
+  border-color: $red;
+  transition: background 0.3s ease;
+}
+
+.btn-secondery a {
+  color: $red;
+  text-decoration: none;
+  padding: 6px 24px;
+  border-radius: 100px;
+  border-color: $red;
+  transition: background 0.3s ease;
+}
+
+.btn-secondery:hover {
+  color: $pink;
+  padding: 6px 24px;
+  border-radius: 100px;
+  border-color: $pink;
+  transition: background 0.3s ease;
+}
+
+.btn-secondery:hover a {
+  color: $pink;
+  padding: 6px 24px;
+  border-radius: 100px;
+  border-color: $pink;
+  transition: background 0.3s ease;
+}
+
+.btn-short {
+  color: $red;
+  font-weight: lighter;
+  padding: 0px 24px;
+  border-radius: 100px;
+  border-width: 0.5px;
+  border-color: $red;
+  transition: background 0.3s ease;
+}
+
+.btn-short:hover {
+  color: $pink;
+  font-weight: lighter;
+  padding: 0px 24px;
+  border-radius: 100px;
+  border-width: 0.5px;
+  border-color: $pink;
+  transition: background 0.3s ease;
+}
+
+.btn-long {
+  color: $white;
+  width: 100%;
+  border-radius: 100px;
+  background: $red;
+  transition: background 0.3s ease;
+}
+
+.btn-long:hover {
+  color: $white;
+  width: 100%;
+  padding: 6px 240px;
+  border-radius: 100px;
+  background: $pink;
+  transition: background 0.3s ease;
+}
+
+.btn-search {
+  color: $white;
+  padding: 6px 24px;
+  border-radius: 100px;
+  background: $red;
+  transition: background 0.3s ease;
+  height: 2.5rem;
+}
+
+.btn-search:hover {
+  color: $white;
+  padding: 6px 24px;
+  border-radius: 100px;
+  background: $pink;
+  transition: background 0.3s ease;
+}
+
+.price-text {
+  margin-bottom: 0px;
+  margin-right: 16px;
+}

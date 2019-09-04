@@ -1,0 +1,18 @@
+<!-- 5 days plan card (start)-->
+<div class="container weekly-plan-card mb-4">
+  <div class="d-flex flex-row">
+    <div class="p-2 bd-highlight">
+      <h2><%= @plan.name %></h2>
+      <p><%= @plan.description %></p>
+    </div>
+    <!-- <div class="p-2 bd-highlight flex-grow-1"></div> -->
+    <div class="mt-2 ">
+      <%= render 'orders/form' %>
+    </div>
+  </div>
+
+  <%= render 'shared/plancard' %>
+
+  </div>
+</div>
+<!-- 5 days plan card (finish)-->

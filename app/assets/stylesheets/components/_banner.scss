@@ -1,0 +1,82 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.d-fex {
+  display: flex;
+  position: relative;
+}
+
+.avatar-extra-large {
+  position: absolute;
+  right: 80px;
+  top: 230px;
+}
+
+.avatar-xl-btn {
+  // left: 330px;
+  // top: 400px;
+  // color: $white;
+  font-weight: 400;
+  background-color: rgba(242, 242, 242, 0.6);
+  position: absolute;
+  right: 98px;
+  top: 400px;
+}
+
+.white {
+  position: absolute;
+  left: 50px;
+  top: 250px;
+}
+
+.plan-description {
+  position: absolute;
+  left: 50px;
+  top: 320px;
+  color: $white;
+  font-weight: 300;
+  width: 60vw;
+}
+
+.plan-price {
+  position: absolute;
+  left: 50px;
+  top: 400px;
+  color: $white;
+  font-weight:4000;
+}
+
+.plan-order {
+  position: absolute;
+  left: 50px;
+  top: 450px;
+}
+
+.banner-search{
+  position: absolute;
+  left: 50px;
+  top: 300px;
+}
+
+.banner-p {
+  position: absolute;
+  left: 50px;
+  top: 300px;
+}

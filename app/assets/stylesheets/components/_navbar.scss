@@ -1,0 +1,42 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  z-index: 1;
+  background: $white;
+  opacity: 0.9;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-lewagon:hover {
+  justify-content: space-between;
+  z-index: 1;
+  background: $white;
+  opacity: 1;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.logo-text {
+  color: $red;
+}
+
+.navbar-text {
+  color: $gray;
+  font-weight: 300;
+}
+
+.navbar-text:hover {
+  color: $pink;
+  font-weight: 300;
+}
+
+.nav-search {
+}

@@ -1,0 +1,50 @@
+// Specific CSS for your home-page
+h1 {
+  font-weight: 400;
+  color: $black;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+h3 {
+  font-weight: 200;
+}
+
+h4 {
+  font-weight: 200;
+}
+
+h5 {
+  font-weight: 200;
+}
+
+h6 {
+  font-weight: 200;
+}
+
+p {
+  font-weight: 400;
+}
+
+.container-bentomo {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.white {
+  color: $white;
+  font-weight: bold;
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  margin-top: 72px;
+  flex: 1;
+}
